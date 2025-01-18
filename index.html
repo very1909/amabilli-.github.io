@@ -1,13 +1,96 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página HTML</title>
+    <title>Página de Amabilli - Estudante Talento Tech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        .highlight {
+            color: #ff6347; /* Cor para destacar */
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem-vindo à minha primeira página HTML!</h1>
-    <p>Olá! Meu nome é <strong>Amabilli</strong> e sou estudante do curso <strong>Talento Tech</strong>.</p>
-    <p>Este é o meu primeiro teste de HTML.</p>
+
+    <header>
+        <h1>Bem-vindo ao meu site!</h1>
+        <p>Sou <span class="highlight">Amabilli</span>, estudante do curso <span class="highlight">Talento Tech</span>.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Amabilli, e estou cursando o programa Talento Tech. Tenho interesse em desenvolvimento web e estou aprendendo novas habilidades para me tornar um profissional completo na área de tecnologia.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Minhas Habilidades</h2>
+        <ul>
+            <li><strong>HTML</strong> - Criar páginas web estruturadas e acessíveis.</li>
+            <li><strong>CSS</strong> - Estilizar páginas e garantir uma experiência de usuário agradável.</li>
+            <li><strong>JavaScript</strong> - Tornar as páginas interativas e dinâmicas.</li>
+            <li><strong>GitHub</strong> - Controlar versões de código e colaborar com outros desenvolvedores.</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Se você quiser entrar em contato comigo, fique à vontade para me enviar um e-mail para <strong>amabilli@example.com</strong>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Amabilli - Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
